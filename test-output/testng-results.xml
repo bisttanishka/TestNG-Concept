@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-12T08:10:51Z" name="Suite" finished-at="2023-07-12T08:10:51Z" duration-ms="25">
+    <groups>
+      <group name="Jeet">
+        <method signature="PartialgroupExample.test1()[pri:0, instance:testNGFeatures.concept.PartialgroupExample@197d671]" name="test1" class="testNGFeatures.concept.PartialgroupExample"/>
+      </group> <!-- Jeet -->
+      <group name="Preet">
+        <method signature="PartialgroupExample.test1()[pri:0, instance:testNGFeatures.concept.PartialgroupExample@197d671]" name="test1" class="testNGFeatures.concept.PartialgroupExample"/>
+      </group> <!-- Preet -->
+    </groups>
+    <test started-at="2023-07-12T08:10:51Z" name="Test" finished-at="2023-07-12T08:10:51Z" duration-ms="25">
+      <class name="testNGFeatures.concept.PartialgroupExample">
+        <test-method signature="test1()[pri:0, instance:testNGFeatures.concept.PartialgroupExample@197d671]" started-at="2023-07-12T08:10:51Z" name="test1" finished-at="2023-07-12T08:10:51Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testNGFeatures.concept.PartialgroupExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
