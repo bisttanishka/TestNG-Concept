@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-12T08:10:51Z" name="Suite" finished-at="2023-07-12T08:10:51Z" duration-ms="25">
+  <suite started-at="2023-07-13T18:34:33 IST" name="Default suite" finished-at="2023-07-13T18:34:49 IST" duration-ms="16351">
     <groups>
-      <group name="Jeet">
-        <method signature="PartialgroupExample.test1()[pri:0, instance:testNGFeatures.concept.PartialgroupExample@197d671]" name="test1" class="testNGFeatures.concept.PartialgroupExample"/>
-      </group> <!-- Jeet -->
-      <group name="Preet">
-        <method signature="PartialgroupExample.test1()[pri:0, instance:testNGFeatures.concept.PartialgroupExample@197d671]" name="test1" class="testNGFeatures.concept.PartialgroupExample"/>
-      </group> <!-- Preet -->
     </groups>
-    <test started-at="2023-07-12T08:10:51Z" name="Test" finished-at="2023-07-12T08:10:51Z" duration-ms="25">
-      <class name="testNGFeatures.concept.PartialgroupExample">
-        <test-method signature="test1()[pri:0, instance:testNGFeatures.concept.PartialgroupExample@197d671]" started-at="2023-07-12T08:10:51Z" name="test1" finished-at="2023-07-12T08:10:51Z" duration-ms="7" status="PASS">
+    <test started-at="2023-07-13T18:34:33 IST" name="Default test" finished-at="2023-07-13T18:34:49 IST" duration-ms="16351">
+      <class name="com.selenium.alert.AlertExample">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.selenium.alert.AlertExample@130c12b7]" started-at="2023-07-13T18:34:33 IST" name="launchBrowser" finished-at="2023-07-13T18:34:42 IST" duration-ms="8941" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- testNGFeatures.concept.PartialgroupExample -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAlertTest()[pri:0, instance:com.selenium.alert.AlertExample@130c12b7]" started-at="2023-07-13T18:34:42 IST" name="verifyAlertTest" finished-at="2023-07-13T18:34:49 IST" duration-ms="7358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertTest -->
+      </class> <!-- com.selenium.alert.AlertExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
