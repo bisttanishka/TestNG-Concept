@@ -2,15 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite">
   <test thread-count="5" name="Test">
-   <groups>
-    <run>
-     <!--  <include name="Regression"/> -->
-     <include name="Jeet"/>
-    </run>
-  </groups>
     <classes>
       <!-- <class name="testNGFeatures.concept.GroupsConcept"/>-->
-       <class name="testNGFeatures.concept.PartialgroupExample"/>
+      <!--<class name="testNGFeatures.concept.PartialgroupExample"/>-->
+       <class name="com.selenium.alert.AlertExample"></class>
+     <class name="navigationcommands.NavigationPage"></class>
+       
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
