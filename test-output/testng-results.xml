@@ -1,21 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-13T18:34:33 IST" name="Default suite" finished-at="2023-07-13T18:34:49 IST" duration-ms="16351">
+  <suite started-at="2023-07-14T11:28:35 IST" name="Default suite" finished-at="2023-07-14T11:28:36 IST" duration-ms="91">
     <groups>
     </groups>
-    <test started-at="2023-07-13T18:34:33 IST" name="Default test" finished-at="2023-07-13T18:34:49 IST" duration-ms="16351">
-      <class name="com.selenium.alert.AlertExample">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.selenium.alert.AlertExample@130c12b7]" started-at="2023-07-13T18:34:33 IST" name="launchBrowser" finished-at="2023-07-13T18:34:42 IST" duration-ms="8941" status="PASS">
+    <test started-at="2023-07-14T11:28:35 IST" name="Default test" finished-at="2023-07-14T11:28:36 IST" duration-ms="91">
+      <class name="testNGFeatures.concept.SampleTest2">
+        <test-method signature="launchBrowser(java.lang.String,java.lang.String)[pri:1, instance:testNGFeatures.concept.SampleTest2@5a56cdac]" started-at="2023-07-14T11:28:35 IST" name="launchBrowser" description="Data Provider Test" data-provider="LoginData" finished-at="2023-07-14T11:28:35 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pathak]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyAlertTest()[pri:0, instance:com.selenium.alert.AlertExample@130c12b7]" started-at="2023-07-13T18:34:42 IST" name="verifyAlertTest" finished-at="2023-07-13T18:34:49 IST" duration-ms="7358" status="PASS">
+        <test-method signature="launchBrowser(java.lang.String,java.lang.String)[pri:1, instance:testNGFeatures.concept.SampleTest2@5a56cdac]" started-at="2023-07-14T11:28:35 IST" name="launchBrowser" description="Data Provider Test" data-provider="LoginData" finished-at="2023-07-14T11:28:35 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pathak1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAlertTest -->
-      </class> <!-- com.selenium.alert.AlertExample -->
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchBrowser(java.lang.String,java.lang.String)[pri:1, instance:testNGFeatures.concept.SampleTest2@5a56cdac]" started-at="2023-07-14T11:28:36 IST" name="launchBrowser" description="Data Provider Test" data-provider="LoginData" finished-at="2023-07-14T11:28:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pathak3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="SearchItem(java.lang.String,int)[pri:2, instance:testNGFeatures.concept.SampleTest2@5a56cdac]" started-at="2023-07-14T11:28:36 IST" name="SearchItem" description="Data Provider Test" data-provider="SearchItem" finished-at="2023-07-14T11:28:36 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method signature="SearchItem(java.lang.String,int)[pri:2, instance:testNGFeatures.concept.SampleTest2@5a56cdac]" started-at="2023-07-14T11:28:36 IST" name="SearchItem" description="Data Provider Test" data-provider="SearchItem" finished-at="2023-07-14T11:28:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tshdirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+      </class> <!-- testNGFeatures.concept.SampleTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
